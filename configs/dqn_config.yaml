@@ -1,0 +1,11 @@
+dqn:
+  gamma: 0.99                # Discount factor for future rewards
+  epsilon_start: 1.0         # Initial epsilon for epsilon-greedy exploration
+  epsilon_end: 0.1           # Minimum epsilon value
+  epsilon_decay: 0.995       # Decay rate for epsilon
+  learning_rate: 0.001       # Learning rate for the optimizer
+  buffer_size: 10000         # Replay buffer size
+  batch_size: 64             # Batch size for training
+  target_update_freq: 10     # Frequency (in steps) to update the target network
+  max_episodes: 1000         # Total number of episodes to run
+  max_timesteps: 200         # Maximum number of timesteps per episode

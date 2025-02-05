@@ -1,0 +1,7 @@
+recsim
+dopamine-rl==4.0.6
+tensorflow==2.15.0
+tensorboard==2.15.0
+transformers
+torch
+bitsandbytes
